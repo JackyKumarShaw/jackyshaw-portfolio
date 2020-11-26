@@ -9,3 +9,5 @@ As of now, I know:-
 3. Node.js
 4. CHALK
 5. repl.it
+6. C
+7. C++
