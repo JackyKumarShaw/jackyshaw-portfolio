@@ -1,0 +1,272 @@
+/** typography **/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/** CSS Variable **/
+:root {
+    --primary-color: #34D399;
+    --dark-grey: #6B7280;
+    --off-white: #E5E7EB;
+}
+
+/** container **/
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/** links **/
+
+.links {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    border: 2px;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    border-style: outset;
+    color: white;
+}
+
+.link-secondary {
+    border: 2px;
+    border-color: var(--primary-color);
+    border-radius: 1rem;
+    border-style: outset;
+    color: var(--primary-color);
+}
+
+hr {
+    margin: 2rem 0rem
+}
+
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .links {
+    color: white
+}
+
+.navigation .link-active {
+    font-weight: bolder;
+}
+
+.navigation .nav-brand {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/** header **/
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    /*makes the image into a block element from an inline element */
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--dark-grey);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/** images in technologies section **/
+
+.special-container {
+    padding-left: 13rem;
+}
+
+#html {
+    max-width: 1rem;
+}
+#w1 {
+    padding-top:0.5rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    border-style: outset;
+    border-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+#css {
+    max-width: 1.5rem;
+}
+#w2 {
+    padding-top:0.5rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    border-style: outset;
+    border-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+#js {
+    max-width: 1.2rem;
+}
+#w3 {
+    padding-top:0.5rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    border-style: outset;
+    border-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+#njs {
+    max-width: 1.5rem;
+}
+#w4 {
+    padding-top:0.5rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    border-style: outset;
+    border-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+#rct {
+    max-width: 1.5rem;
+}
+#w5 {
+    padding-top:0.5rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    border-style: outset;
+    border-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+#ntly {
+    max-width: 1.1rem;
+}
+#wh {
+    padding-top:0.3rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    border-style: outset;
+    border-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+#git {
+    max-width: 1.5rem;
+}
+#vcs1 {
+    padding-top:0.3rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    border-style: outset;
+    border-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+#githb {
+    max-width: 1rem;
+}
+#vcs2 {
+    padding-top:0.3rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    border-style: outset;
+    border-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+#cprog {
+    max-width: 1.2rem;
+}
+#opl1 {
+    padding-top:0.3rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    border-style: outset;
+    border-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+#cpp {
+    max-width: 1.2rem;
+}
+#opl2 {
+    padding-top:0.3rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    border-style: outset;
+    border-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+
+/** section **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    /* if we dont give this thinking that, "hey entire content of the section toh class="container-center" ki wajah se center me ho hi jayega then phir se text-align=center kyu dena?" then what will happen is, the heading of the section will be in the center only because of center container class but it will be left aligned which will not look good. */
+    font-size: 2rem;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .links {
+    color: white
+}
+
+.footer .footer-header {
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+/* the following styling is done to override the default user agent stylesheet that the browser automatically applis to shift the unordered list a little bit(40px) towards the right so that it gets a proper indented look and feel. But the bowser never knows that we are converting our unordered list into inline, so as a result the total inline list gets shifted 40px towards the right making us pull our hairs thinking "Even after giving text-align:center" in footer class, why this inline list is not coming exactly in the center?? Thus we are overriding the default inline-start padding to 0px */
+.footer ul {
+    padding-inline-start: 0px;
+}
