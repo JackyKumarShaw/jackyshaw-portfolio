@@ -1,13 +1,14 @@
 # Jacky's Portfolio
 
 Hey! Welcome to my Portfolio Website.
-It will be complete by today night.
+# [See My Portfolio] (https://jackykumarshaw.netlify.app/)
 
 As of now, I know:-
-1. Git and GitHub
-2. Markdown Basics
-3. Node.js
-4. CHALK
-5. repl.it
-6. C
-7. C++
+1. HTML5, CSS3, JavaScript
+2. Git and GitHub
+3. Markdown Basics
+4. Node.js
+5. CHALK
+6. repl.it
+7. C
+8. C++
