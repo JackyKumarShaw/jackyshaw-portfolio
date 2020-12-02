@@ -1,7 +1,7 @@
 # Jacky's Portfolio
 
 Hey! Welcome to my Portfolio Website.
-# [See My Portfolio] (https://jackykumarshaw.netlify.app/)
+# [See My Portfolio](https://jackykumarshaw.netlify.app/)
 
 As of now, I know:-
 1. HTML5, CSS3, JavaScript
