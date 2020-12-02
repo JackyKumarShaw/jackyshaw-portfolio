@@ -109,6 +109,11 @@ hr {
     padding-top: 1rem;
 }
 
+.hero .hero-sub-heading {
+    text-align: center;
+    color: var(--dark-grey);
+}
+
 /** images in technologies section **/
 
 .special-container {
@@ -239,6 +244,11 @@ hr {
     font-size: 2rem;
 }
 
+.section .proj-header {
+    text-align: left;
+    font-size: 2rem;
+    margin: 0rem 0rem;
+}
 .ow {
     background-color: var(--off-white);
 }
