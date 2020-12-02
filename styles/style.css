@@ -48,7 +48,7 @@ body {
 }
 
 hr {
-    margin: 2rem 0rem
+    margin: 2rem 0rem;
 }
 
 
@@ -114,12 +114,13 @@ hr {
     color: var(--dark-grey);
 }
 
-/** images in technologies section **/
+/* the technologies section */ 
 
-.special-container {
-    padding-left: 13rem;
+span {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
 }
-
 #html {
     max-width: 1rem;
 }
@@ -129,7 +130,6 @@ hr {
     padding-right: 0.2rem;
     border-style: outset;
     border-color: var(--primary-color);
-    margin-right: 0.5rem;
 }
 #css {
     max-width: 1.5rem;
@@ -140,7 +140,6 @@ hr {
     padding-right: 0.2rem;
     border-style: outset;
     border-color: var(--primary-color);
-    margin-right: 0.5rem;
 }
 #js {
     max-width: 1.2rem;
@@ -151,7 +150,6 @@ hr {
     padding-right: 0.2rem;
     border-style: outset;
     border-color: var(--primary-color);
-    margin-right: 0.5rem;
 }
 #njs {
     max-width: 1.5rem;
@@ -162,7 +160,6 @@ hr {
     padding-right: 0.2rem;
     border-style: outset;
     border-color: var(--primary-color);
-    margin-right: 0.5rem;
 }
 #rct {
     max-width: 1.5rem;
@@ -173,7 +170,7 @@ hr {
     padding-right: 0.2rem;
     border-style: outset;
     border-color: var(--primary-color);
-    margin-right: 0.5rem;
+    margin-left: 3.4rem;
 }
 #ntly {
     max-width: 1.1rem;
@@ -184,7 +181,6 @@ hr {
     padding-right: 0.2rem;
     border-style: outset;
     border-color: var(--primary-color);
-    margin-right: 0.5rem;
 }
 #git {
     max-width: 1.5rem;
@@ -195,7 +191,6 @@ hr {
     padding-right: 0.2rem;
     border-style: outset;
     border-color: var(--primary-color);
-    margin-right: 0.5rem;
 }
 #githb {
     max-width: 1rem;
@@ -206,7 +201,6 @@ hr {
     padding-right: 0.2rem;
     border-style: outset;
     border-color: var(--primary-color);
-    margin-right: 0.5rem;
 }
 #cprog {
     max-width: 1.2rem;
@@ -217,7 +211,6 @@ hr {
     padding-right: 0.2rem;
     border-style: outset;
     border-color: var(--primary-color);
-    margin-right: 0.5rem;
 }
 #cpp {
     max-width: 1.2rem;
@@ -228,7 +221,6 @@ hr {
     padding-right: 0.2rem;
     border-style: outset;
     border-color: var(--primary-color);
-    margin-right: 0.5rem;
 }
 
 
